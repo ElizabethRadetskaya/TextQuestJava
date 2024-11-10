@@ -29,8 +29,6 @@ Q
 !src/main/webapp/WEB-INF/index.jsp,5/3/53f2773448a6c5938ccf5b998853f2da8ff8c2d4
 Q
 !src/main/webapp/WEB-INF/quest.jsp,b/8/b8902c38a2ba352a4eaff64e412adb44fd7fc73f
-Q
-!src/main/webapp/css/bootstrap.css,1/3/13ff1c87977647caa2991b40a1e919c79e2b4c31
 B
 src/main/webapp/js,6/9/69dc875572fe51ac027c4ceae753613a618439c0
 O
@@ -118,3 +116,9 @@ d
 4.smarttomcat/TextQuestJava/conf/jaspic-providers.xml,6/d/6d11dd85b6afcde8b7814c582522559ed4fcd6e4
 `
 0.smarttomcat/TextQuestJava/conf/tomcat-users.xml,f/6/f6ab7ccf56684fcabf5f374f27db1184f809a273
+\
+,src/main/webapp/img/facebook-svgrepo-com.svg,1/a/1ab416c6898eba23f0c7c37305f7155e00a7dc38
+N
+src/main/webapp/css/steles.css,0/9/09ecd5342e47f296e510c4a611aa25f9a3ade1fa
+_
+/src/main/java/com/radetskaya/service/Quest.java,4/2/4213a7aabe06a67410476c1b23a5eb59612e3207

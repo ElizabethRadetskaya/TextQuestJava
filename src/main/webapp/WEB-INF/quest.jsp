@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title>Текстовый квест</title>
+    <title>Текстовий квест</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.css">
     <script src="${pageContext.request.contextPath}/js/bootstrap.js"></script>
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -13,7 +13,7 @@
 
         <c:if test="${currentQuestion.isWin() || currentQuestion.isLoose()}">
             <form action="${pageContext.request.contextPath}/">
-                <button class="btn btn-danger btn-lg" type="submit">Начать заново</button>
+                <button class="btn btn-danger btn-lg" type="submit">Почати занову</button>
             </form>
         </c:if>
 
@@ -24,7 +24,7 @@
                            value="${i - 1}"/>${currentQuestion.getAnswers().get(i - 1).getText()}
                     <br>
                 </c:forEach>
-                <button class="mt-3 btn btn-success" type="submit">Ответить</button>
+                <button class="mt-3 btn btn-success" type="submit">Відповісти</button>
             </form>
         </c:if>
     </div>
@@ -43,9 +43,9 @@
                 <div class="card card-body" style="width: 300px">
                     <b>IP address:</b> <i>${pageContext.getRequest().getRemoteAddr()}</i>
                     <br>
-                    <b>Имя в игре:</b> <i>${name}</i>
+                    <b>Ім'я в грі:</b> <i>${name}</i>
                     <br>
-                    <b>Количество сыгранных игр:</b> <i>${count}</i>
+                    <b>Кількість зіграних ігор:</b> <i>${count}</i>
                 </div>
             </div>
         </div>
