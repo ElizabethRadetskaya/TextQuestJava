@@ -30,20 +30,23 @@ public class QuestServlet extends HttpServlet {
         if (request.getParameter("numberAnswer") != null) {
             HttpSession currentSession = request.getSession();
 
-            Question currentQuestion = (Question)currentSession.getAttribute("currentQuestion");
+            Question currentQuestion = (Question) currentSession.getAttribute("currentQuestion");
             String numberAnswer = request.getParameter("numberAnswer");
 
             currentQuestion = questService.nextQuestion(currentQuestion, numberAnswer);
 
             currentSession.setAttribute("currentQuestion", currentQuestion);
 
-            if (currentQuestion.isWin() || currentQuestion.isLoose()) {
-                String name = (String) currentSession.getAttribute("name");
-
-                int gamesNumber = questService.upgradeStatistics(name);
-
-                currentSession.setAttribute("count", gamesNumber);
-                LOGGER.debug("currentSession.setAttribute(count, {})", gamesNumber);
+            if (currentQuestion.isWin()) {
+                // Якщо перемога, перенаправляємо на `victory.jsp`
+                LOGGER.debug("Перемога досягнута, перенаправлення на victory.jsp");
+                getServletContext().getRequestDispatcher("/WEB-INF/victory.jsp").forward(request, response);
+                return;
+            } else if (currentQuestion.isLoose()) {
+                // Якщо поразка, перенаправляємо на `game_over.jsp`
+                LOGGER.debug("Поразка, перенаправлення на game_over.jsp");
+                getServletContext().getRequestDispatcher("/WEB-INF/game_over.jsp").forward(request, response);
+                return;
             }
         }
 

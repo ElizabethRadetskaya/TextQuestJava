@@ -329,3 +329,111 @@ ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: cent
     -ms-transition: all 250ms ease-in-out 0s;
     -o-transition: all 250ms ease-in-out 0s;
     transition: all 250ms ease-in-out 0s;}
+/* Специфічні стилі для сторінки перемоги */
+.victory-page .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Панель навігації */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {
+   background-color: #111;
+}
+
+ul.topnav li.right {
+     float: right;
+}
+
+@media screen and (max-width: 600px) {
+     ul.topnav li.right,
+     ul.topnav li {
+         float: none;
+         }
+}
+
+/* Основні стилі контейнера */
+.main-page {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/* Стилі для зображення */
+.victory-image-container {
+   display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.victory-image {
+    max-width: 100%;
+    height: auto;
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Футер */
+.main-footer {
+   padding: 20px 0;
+   background-color: #252525;
+    color: #fff;
+}
+
+.footer-text {
+   margin: 0;
+   font-size: 14px;
+}
+.main-page-title1{
+   font-size: 2.5em;
+    color: #f41c13;
+    text-align: center;
+}
+.main-page-descr1{
+   font-size: 1.2em;
+   color: #555;
+    text-align: center;
+}
+.main-page-btn1{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+.main-page-descr2{margin-top: 20px;
+    font-size: 1.2em;
+    color: #1b1d1f;
+    text-align: center;
+}

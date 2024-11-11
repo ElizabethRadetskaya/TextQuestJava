@@ -122,3 +122,11 @@ N
 src/main/webapp/css/steles.css,0/9/09ecd5342e47f296e510c4a611aa25f9a3ade1fa
 _
 /src/main/java/com/radetskaya/service/Quest.java,4/2/4213a7aabe06a67410476c1b23a5eb59612e3207
+S
+#src/main/webapp/WEB-INF/victory.jsp,8/a/8a690299aec9f2dc62f1e78fa6d5f18af51b34b6
+U
+%src/main/webapp/WEB-INF/game_over.jsp,4/d/4db59717f2a2fbae1726997a8514b4b72ee7ed66
+M
+src/main/webapp/WEB-INF/2.jsp,2/b/2b15ad3d1ab0929c2fe29de545781f08509069ae
+M
+src/main/webapp/WEB-INF/3.jsp,f/6/f615e5886d23d234e755137c20dd83225a6e20b2
