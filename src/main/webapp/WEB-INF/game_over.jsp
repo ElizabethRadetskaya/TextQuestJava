@@ -25,7 +25,7 @@
             <button class="main-page-btn1" onclick="window.location.href='${pageContext.request.contextPath}/';">На головну</button>
         </div>
         <div class="victory-image-container">
-            <img src="${pageContext.request.contextPath}/img/boy.png" alt="Victory Image" class="victory-image">
+            <img src="${pageContext.request.contextPath}/img/monster-3255249_1920.png" alt="Victory Image" class="victory-image">
 
         </div>
         <p class="main-page-descr2">Дякуємо за гру!</p>

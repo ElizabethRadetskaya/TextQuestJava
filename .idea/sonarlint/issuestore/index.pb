@@ -130,3 +130,5 @@ M
 src/main/webapp/WEB-INF/2.jsp,2/b/2b15ad3d1ab0929c2fe29de545781f08509069ae
 M
 src/main/webapp/WEB-INF/3.jsp,f/6/f615e5886d23d234e755137c20dd83225a6e20b2
+]
+-src/main/webapp/img/instagram-svgrepo-com.svg,c/0/c09361625073442109ba863237068234566b6e2a

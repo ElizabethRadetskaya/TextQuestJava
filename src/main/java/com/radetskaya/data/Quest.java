@@ -44,7 +44,7 @@ public class Quest {
         // Ініціалізація основних питань з посиланням на кінцеві стани та інші питання
         battleChoice = Question.builder()
                 .text("Чудовисько сильне. Чи будеш ти боротися до кінця?")
-                .img("battle_choice.jpg")
+                .img("rock-8884129_1920.jpg")
                 .answers(List.of(
                         Answer.builder()
                                 .text("Боротися до кінця")
@@ -58,7 +58,7 @@ public class Quest {
 
         negotiateChoice = Question.builder()
                 .text("Чудовисько не довіряє тобі і випробує твою чесність. Чи скажеш ти правду про свою місію?")
-                .img("truth_or_lie.jpg")
+                .img("gargoyle-8788128_1920.jpg")
                 .answers(List.of(
                         Answer.builder()
                                 .text("Розповісти правду про свою місію")
@@ -72,7 +72,7 @@ public class Quest {
 
         trustBuilding = Question.builder()
                 .text("Чудовисько довіряє тобі і дозволяє пройти. Ти опинився перед входом у печеру. Увійдеш?")
-                .img("cave_entrance.jpg")
+                .img("gargoyle-8788128_1920.jpg")
                 .answers(List.of(
                         Answer.builder()
                                 .text("Увійти до печери")
@@ -86,7 +86,7 @@ public class Quest {
 
         confrontation = Question.builder()
                 .text("На твоєму шляху стоїть чудовисько, яке охороняє перехід через ущелину. Ти готовий до бою?")
-                .img("monster_guard.jpg")
+                .img("dragon-9159542_1920.png")
                 .answers(List.of(
                         Answer.builder()
                                 .text("Прийняти виклик і битися")
