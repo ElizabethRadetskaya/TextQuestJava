@@ -4,7 +4,7 @@ import com.radetskaya.data.Answer;
 import com.radetskaya.data.Question;
 
 import java.util.List;
-
+//
 public class Quest {
     private Question defeatLies;
     private Question refuseChallenge;

@@ -2,6 +2,8 @@ package com.radetskaya.data;
 
 import java.util.List;
 
+//Quest - клас, що описує логіку квесту (взаємозв'язок питань із відповідями)
+
 public class Quest {
 
     // Спочатку оголошуємо всі змінні

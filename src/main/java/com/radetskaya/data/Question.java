@@ -5,6 +5,7 @@ import lombok.Getter;
 
 import java.util.List;
 
+//Question - клас, що описує питання квесту
 
 @Builder
 @Getter

@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+//IndexServlet - початковий сервлет
 @WebServlet(name = "indexServlet", value = "")
 public class IndexServlet extends HttpServlet {
     private static final Logger LOGGER = LoggerFactory.getLogger(IndexServlet.class);

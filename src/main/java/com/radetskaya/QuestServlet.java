@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-
+//QuestServlet - сервлет, який відповідає за зміну питань квесту
 @WebServlet(name = "questServlet", value = "/quest")
 public class QuestServlet extends HttpServlet {
     private static final Logger LOGGER = LoggerFactory.getLogger(QuestServlet.class);

@@ -8,7 +8,7 @@ import java.util.Map;
 
 
 import org.slf4j.Logger;
-
+//UserRepository - клас, що описує сховище користувачів
 public class UserRepository {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserRepository.class);
     private final Map<String, User> users;

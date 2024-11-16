@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-
+//InitialServlet - сервлет, який відповідає за ініціалізацію користувача та першого питання квесту
 @WebServlet(name = "initialServlet", value = "/initial")
 public class InitialServlet extends HttpServlet {
     private static final Logger LOGGER = LoggerFactory.getLogger(InitialServlet.class);

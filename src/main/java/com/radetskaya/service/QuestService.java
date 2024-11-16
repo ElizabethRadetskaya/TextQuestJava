@@ -6,7 +6,7 @@ import com.radetskaya.repository.UserRepository;
 import com.radetskaya.service.exception.GameException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+//QuestService - клас-сервіс, що відповідає за взаємодію класу QuestServlet з класом UserRepository, оновлення статистики та зміну питань
 public class QuestService {
     private static final Logger LOGGER = LoggerFactory.getLogger(QuestService.class);
     private final UserRepository userRepository;

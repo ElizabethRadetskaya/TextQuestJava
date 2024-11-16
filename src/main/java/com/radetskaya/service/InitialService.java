@@ -5,6 +5,7 @@ import com.radetskaya.repository.UserRepository;
 import com.radetskaya.service.exception.GameException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+//InitialService - клас-сервіс, що відповідає за взаємодію класу InitialServlet з класом UserRepository
 
 public class InitialService {
     private static final Logger LOGGER = LoggerFactory.getLogger(InitialService.class);
