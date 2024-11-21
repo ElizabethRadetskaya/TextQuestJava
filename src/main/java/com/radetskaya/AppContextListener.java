@@ -11,7 +11,8 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 import java.util.HashMap;
 //AppContextListener ініціалізується під час завантаження програми
-@WebListener
+
+@WebListener //вказує серверу що клас є слухачем
 public class AppContextListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent servletContextEvent) {

@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-//IndexServlet - початковий сервлет
+//IndexServlet - початковий сервлет, який відповідає за обробку запитів до кореневої сторінки веб-додатку.
+//Його основне завдання: Перенаправляти запити до JSP-сторінки index.gsp, яка відповідає за відображення інтерфейсу
 @WebServlet(name = "indexServlet", value = "")
 public class IndexServlet extends HttpServlet {
     private static final Logger LOGGER = LoggerFactory.getLogger(IndexServlet.class);

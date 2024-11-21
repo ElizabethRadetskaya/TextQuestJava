@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 //QuestServlet - сервлет, який відповідає за зміну питань квесту
+//Обробляє відповіді користквача. Обчислює наступне питання або результат гри(перемога, поразка)
+//Перенапрявляє на відповідну сторінку (victory.jsp, game_over.jsp, оновлену quest.jsp)
 @WebServlet(name = "questServlet", value = "/quest")
 public class QuestServlet extends HttpServlet {
     private static final Logger LOGGER = LoggerFactory.getLogger(QuestServlet.class);
